@@ -3,6 +3,4 @@
 /android/
 
 # Build artifacts and logs
-*.apk
-*.idsig
 *.log

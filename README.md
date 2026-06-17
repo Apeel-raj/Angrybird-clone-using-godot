@@ -1,5 +1,11 @@
 # 2D Angry Birds Clone in Godot 4.6
 
+<p align="center">
+  <a href="https://github.com/Apeel-raj/Angrybird-clone-using-godot/raw/main/angrybirds.apk">
+    <img src="https://img.shields.github.io/badge/Download-Android%20APK-green?style=for-the-badge&logo=android" alt="Download APK" />
+  </a>
+</p>
+
 A fully-featured, physics-based 2D puzzle arcade game inspired by Angry Birds, built using **Godot Engine 4.6 (Forward Plus)**. This repository contains the complete source code, custom procedural audio synthesizers, 12 dynamic levels, and keystore-ready Android build presets.
 
 ---
