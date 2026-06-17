@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://box.gd" id="1_box"]
+[ext_resource type="Texture2D" path="res://stone.svg" id="2_stone_svg"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_1"]
+friction = 0.9
+bounce = 0.02
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(51.2, 51.2)
+
+[node name="Stone" type="RigidBody2D"]
+mass = 3.0
+physics_material_override = SubResource("PhysicsMaterial_1")
+contact_monitor = true
+max_contacts_reported = 4
+script = ExtResource("1_box")
+max_health = 160.0
+impact_threshold = 150.0
+damage_multiplier = 0.2
+particle_color = Color(0.45, 0.45, 0.45, 1.0)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_stone_svg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_1")

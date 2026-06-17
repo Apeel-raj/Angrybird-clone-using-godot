@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Body (Blue Circle) -->
+  <circle cx="64" cy="64" r="52" fill="#03a9f4" stroke="#0288d1" stroke-width="4"/>
+  <!-- Belly (Light blue area) -->
+  <path d="M 22 76 C 22 108, 106 108, 106 76 C 106 86, 90 110, 64 110 C 38 110, 22 86, 22 76 Z" fill="#b3e5fc"/>
+  <!-- Top feather -->
+  <path d="M 64 14 C 62 2, 54 2, 48 10 C 50 18, 58 20, 64 18 Z" fill="#03a9f4" stroke="#0288d1" stroke-width="2"/>
+  <!-- Orange patches around eyes -->
+  <circle cx="48" cy="54" r="22" fill="#ff9800" opacity="0.6"/>
+  <circle cx="80" cy="54" r="22" fill="#ff9800" opacity="0.6"/>
+  <!-- Eyes -->
+  <!-- Left Eye -->
+  <circle cx="48" cy="54" r="14" fill="#ffffff" stroke="#212121" stroke-width="2"/>
+  <circle cx="50" cy="54" r="4" fill="#000000"/>
+  <!-- Right Eye -->
+  <circle cx="80" cy="54" r="14" fill="#ffffff" stroke="#212121" stroke-width="2"/>
+  <circle cx="78" cy="54" r="4" fill="#000000"/>
+  <!-- Eyebrows (Small, dark blue) -->
+  <path d="M 36 38 Q 48 34 54 42" fill="none" stroke="#01579b" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 92 38 Q 80 34 74 42" fill="none" stroke="#01579b" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Beak (Small yellow triangle) -->
+  <path d="M 64 54 L 50 68 Q 64 74 78 68 Z" fill="#ffd54f" stroke="#ffb300" stroke-width="2.5"/>
+</svg>

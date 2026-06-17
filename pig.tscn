@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://pig.gd" id="1_pig"]
+[ext_resource type="Texture2D" path="res://pig.svg" id="2_pig_svg"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_1"]
+friction = 0.6
+bounce = 0.2
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1"]
+radius = 22.0
+
+[node name="Pig" type="RigidBody2D"]
+mass = 0.8
+physics_material_override = SubResource("PhysicsMaterial_1")
+contact_monitor = true
+max_contacts_reported = 4
+script = ExtResource("1_pig")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("2_pig_svg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_1")

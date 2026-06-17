@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://slingshot.gd" id="1_slingshot"]
+[ext_resource type="Texture2D" path="res://slingshot.svg" id="2_slingshot_svg"]
+
+[node name="Slingshot" type="Node2D"]
+script = ExtResource("1_slingshot")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2_slingshot_svg")
+
+[node name="LeftAnchor" type="Marker2D" parent="."]
+position = Vector2(-16, -42)
+
+[node name="RightAnchor" type="Marker2D" parent="."]
+position = Vector2(16, -42)
+
+[node name="CenterMarker" type="Marker2D" parent="."]
+position = Vector2(0, -42)
+
+[node name="LeftBand" type="Line2D" parent="."]
+width = 8.0
+default_color = Color(0.247059, 0.14902, 0.0823529, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="RightBand" type="Line2D" parent="."]
+width = 8.0
+default_color = Color(0.247059, 0.14902, 0.0823529, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="TrajectoryLine" type="Line2D" parent="."]
+top_level = true
+width = 4.0
+default_color = Color(1, 0.843137, 0, 0.6)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2

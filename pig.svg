@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Ears -->
+  <!-- Left Ear -->
+  <ellipse cx="32" cy="18" rx="14" ry="18" fill="#4caf50" stroke="#2e7d32" stroke-width="3" transform="rotate(-15 32 18)"/>
+  <ellipse cx="32" cy="20" rx="7" ry="10" fill="#a5d6a7"/>
+  <!-- Right Ear -->
+  <ellipse cx="96" cy="18" rx="14" ry="18" fill="#4caf50" stroke="#2e7d32" stroke-width="3" transform="rotate(15 96 18)"/>
+  <ellipse cx="96" cy="20" rx="7" ry="10" fill="#a5d6a7"/>
+  <!-- Body -->
+  <circle cx="64" cy="68" r="52" fill="#4caf50" stroke="#2e7d32" stroke-width="4"/>
+  <!-- Eyes -->
+  <circle cx="44" cy="52" r="12" fill="#ffffff" stroke="#2d7d32" stroke-width="2"/>
+  <circle cx="44" cy="52" r="4" fill="#000000"/>
+  <circle cx="84" cy="52" r="12" fill="#ffffff" stroke="#2d7d32" stroke-width="2"/>
+  <circle cx="84" cy="52" r="4" fill="#000000"/>
+  <!-- Eyebrows -->
+  <path d="M 32 38 Q 44 36 48 44" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 96 38 Q 84 36 80 44" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <!-- Snout -->
+  <ellipse cx="64" cy="74" rx="22" ry="16" fill="#81c784" stroke="#2e7d32" stroke-width="3"/>
+  <!-- Nostrils -->
+  <circle cx="56" cy="74" r="5" fill="#2e7d32"/>
+  <circle cx="72" cy="74" r="5" fill="#2e7d32"/>
+  <!-- Smile -->
+  <path d="M 46 88 Q 64 100 82 88" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+</svg>

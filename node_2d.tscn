@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c6qdf0rvnwmbt"]
+
+[ext_resource type="Texture2D" uid="uid://bd7nstbt0hyhb" path="res://icon.svg" id="1_0e48y"]
+[ext_resource type="Script" uid="uid://bk7cqf8h4cjxw" path="res://rigid_body_2d.gd" id="1_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=283075311]
+
+[node name="RigidBody2D" type="RigidBody2D" parent="." unique_id=998616123]
+position = Vector2(391, 492)
+script = ExtResource("1_epypp")
+
+[node name="Icon" type="Sprite2D" parent="RigidBody2D" unique_id=964296195]
+position = Vector2(-39, 53)
+texture = ExtResource("1_0e48y")
